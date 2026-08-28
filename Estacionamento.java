@@ -2,6 +2,7 @@ import java.util.concurrent.Semaphore;
 
 public class Estacionamento {
     // Cria um semáforo com 3 permissões (limite de 3 carros simultâneos):
+    // Estacionamento com apenas 3 vagas.
     private final Semaphore semaforo = new Semaphore(3);
 
     public void entrar(String carro) {
