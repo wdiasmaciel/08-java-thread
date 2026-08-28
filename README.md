@@ -50,7 +50,7 @@ Cenário: um laboratório de faculdade possui apenas 5 computadores disponíveis
 
 Implementação: crie um semáforo inicializado com 5. Dispare 8 threads de alunos. Cada aluno "adquire" um computador, estuda por um tempo aleatório (Thread.sleep) e depois "libera" o computador para o próximo estudante da fila.
 
-## Exercício 10: O Buffet de Restaurante (Várias Seções Simultâneas)
+## Exercício 5: O Buffet de Restaurante (Várias Seções Simultâneas)
 
 Objetivo: aplicar semáforos para simular um limite de pessoas em uma área comum.
 
